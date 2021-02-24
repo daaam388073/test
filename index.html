@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>뽀로로와 친구들</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Dokdo&family=East+Sea+Dokdo&display=swap" rel="stylesheet">
+    <style>
+        body{
+            background-image: url(image/벽돌벽.png);
+            text-align: center;
+            font-size: 0.5em; /*16px = 1em = 100%*/
+            font-weight: normal; /*한글은 normal과 bold만*/
+            line-height: 3em;
+            font-family: 'East Sea Dokdo', cursive;
+        }
+        .title{
+            font-size: 10em;
+            font-weight: 700;
+            color: rgb(0, 88, 196);
+            text-transform: capitalize;
+            letter-spacing: 5px;
+            text-shadow: 4px 4px 0px rgb(255, 234, 0),
+            8px 8px 0px rgb(252, 161, 42);
+            font-family: 'Dokdo', cursive;
+            background-color: rgba(252, 248, 229,0.5);
+            width: 60%;
+            margin: auto;
+            padding: 3.5%;
+        }
+        /* table{
+            margin-left: auto;
+            margin-right: auto;
+            font-weight: normal;
+            text-align: center;
+            
+        }
+
+        image{
+            border-bottom: white 30px;
+        } */
+        figure{
+            background-image: url(image/craft.jpg);
+            background-size: cover;
+            margin-left: auto;
+            margin-right: auto;
+            width: 25%;
+            height: 50%;
+            padding-top: 2.5%;
+            font-size: 3em;
+            align-items: center;
+        }
+        .loopy{
+            
+            background-image: url(image/craft.jpg);
+            background-size: cover;
+            margin-left: auto;
+            margin-right: auto;
+            width: 70%;
+            height: 50%;
+            padding-top: 2.5%;
+            font-size: 3em;
+            align-items: center;
+            border: solid gold 30px;
+
+        }
+        img{
+        border-radius: 10px;
+        }
+    </style>
+</head>
+<body>
+    <h1 class="title">현상수배 뽀로로와 친구들</h1>
+    <figure>
+        <img src="image/pororo/pororo.jpeg" width=80%" alt="">>
+        <figcaption>
+            <h1>뽀로로</h1>
+            <p>종 : 펭귄</p>
+            <p>$1,000</p>
+            <P>갑질</P>
+        </figcaption>    
+    </figure>
+    <figure>
+        <img src="image/pororo/petty.jpg" width=80%" alt="">>
+        <figcaption>
+            <h1>페티</h1>
+            <p>종 : 펭귄</p>
+            <p>$1,000</p>
+            <P>꽃뱀</P>
+        </figcaption>    
+    </figure>
+    <figure>
+        <img src="image/pororo/crong.jpeg" width=80%" alt="">>
+        <figcaption>
+            <h1></h1>
+            <p>종 : 공룡</p>
+            <p>$1,000</p>
+            <P>고대동물연구표본탈출</P>
+        </figcaption>    
+    </figure>
+    <figure>
+        <img src="image/pororo/eddy.jpg" width=80%" alt="">>
+        <figcaption>
+            <h1>에디</h1>
+            <p>종 : 여우</p>
+            <p>$1,000</p>
+            <P>불법인공지능로봇제작</P>
+        </figcaption>    
+    </figure>
+    <figure>
+        <img src="image/pororo/rody.jpg" width=80%" alt="">>
+        <figcaption>
+            <h1>로디</h1>
+            <p>종 : 로봇</p>
+            <p>$500</p>
+            <P>불법인공지능로봇</P>
+        </figcaption>    
+    </figure>
+    <figure>
+        <img src="image/pororo/poby.jpg" width=80%" alt="">>
+        <figcaption>
+            <h1>포비</h1>
+            <p>종 : 북극곰</p>
+            <p>$2,000</p>
+            <P>육식</P>
+        </figcaption>    
+    </figure>
+    <figure>
+        <img src="image/pororo/harry.jpg" width=80%" alt="">>
+        <figcaption>
+            <h1>해리</h1>
+            <p>종 : 벌새</p>
+            <p>$300</p>
+            <P>고성방가</P>
+        </figcaption>    
+    </figure>
+    <div class="loopy">
+        <img src="image/pororo/rupy7.jpeg" width=93%" alt="">
+        <figcaption>
+            <h1>루피</h1>
+            <p>종 : 비버</p>
+            <p>$1,000,000,000</p>
+            <P>절도,흡연,불법핵개발,음주</P>
+        </figcaption>    
+    </figure>
+    <!-- <p>옛날옛적에 뽀로로라는 펭귄이 살았어요. 그동네에는 루피라는 비버도 살았구요.
+        동네에는 크롱이라는 공룡도, 에디라는 여우도, 로디라는 여우가 만든 로봇도, 포비라는 북극곰도, 해리라는 참새도 살았어요. <span class="rp">루피는 항상 밥만하는 밥순이였어요.</span> 
+        그런데 어느날 패티라는 여자 펭귄이 동네에 찾아왔어요. 밥순이 루피는 지금까지 여자여서 혼자 밥이며 간식이며 해먹이고 살아왔는데..
+        이 망할놈의 수컷들이 새로 굴러온 펭귄년에게 집이며 루피가 해놓은 밥과 간식까지 가져다 받치는거 아니겠어요? 루피는 폭주했어요. 
+    </p>
+    <table>
+        <tr>
+            <th>사진</th>
+            <th>이름</th>
+            <th>종</th>
+            <th>소개</th> -->
+        <!-- </tr>
+        <tr>
+            <td><img src="image/pororo/pororo.jpeg" width="100"></td>
+            <td>뽀로로</td>
+            <td>펭귄</td>
+            <td>호기심이 많은 꼬마 펭귄.
+            물건을 발견하면 왕성한 호기심이 발동하고, 하고 싶은 것은 꼭 하고야 맙니다.
+                하늘을 날 수 있을 거라는 의지를 실천에 옮기려는 좌충우돌형에 장난기가 넘치는 사고다발 꼬마이지만 숲속 마을에는 없어선 안되는 분위기 메이커입니다.
+                
+            
+            
+            </td>
+        </tr>
+        <tr>
+            <td><img src="image/pororo/petty.jpg" width="100"></td>
+            <td>패티</td>
+            <td>펭귄</td>
+            <td>뽀롱뽀롱 숲 속 마을에 새로 이사 온 활달하고 사교성이 좋은 소녀 펭귄.
+                예쁘고 싹싹한 성격으로 친구들의 관심을 받는 새로운 친구로 등장합니다.
+                귀엽고 예쁜 외모와는 달리 털털한 성격에, 축구, 달리기, 수영, 무슨 운동이든 뛰어나 친구들의 부러움을 사지만 요리만큼은 서툴답니다.
+            </td>
+        </tr>
+        <tr>
+            <td><img src="image/pororo/crong.jpeg" width="100"></td>
+            <td>크롱</td>
+            <td>공룡</td>
+            <td>뽀로로가 눈 속에서 발견한 알에서 태어난 아기공룡.
+                태어나자마자 처음 본 뽀로로를 친형처럼 따라다니며 항상 뽀로로의 행동을 따라 합니다.
+                사리 분별없는 크롱은 때론 뽀로로보다 더 심한 장난꾸러기에 말썽장이지만 뽀로로와 친구들을 누구보다도 아끼고 사랑하는 숲속마을의 귀여운 재롱동이 랍니다.
+            </td>
+        </tr>
+        <tr>
+            <td><img src="image/pororo/eddy.jpg" width="100"></td>
+            <td>에디</td>
+            <td>여우</td>
+            <td>나름대로 박학다식한 영리한 꼬마여우. 아는 척 잘하고 남의 일에 사사건건 나서기 좋아하는 참견장이.
+                훌륭한 과학자가 꿈인 에디는 상상력이 풍부하여 무언가 고치고 만들어 내는 것을 좋아하지만 그 새로운 발명품으로 인해 에디는 항상 크고 작은 사건사고의 주인공이 됩니다.
+            </td>
+        </tr>
+        <tr>
+            <td><img src="image/pororo/rody.jpg" width="100"></td>
+            <td>로디</td>
+            <td>로봇</td>
+            <td>에디의 모습을 본떠 만든 조수 로봇.
+                힘이 세고 팔 다리가 늘어나는 기능이 있습니다.
+                자신을 만들어준 에디를 무척 사랑하고 따릅니다.
+                갓 만들어진 로봇이다 보니 어린아이처럼 천진난만하고 모르는 것이 많습니다.
+                로봇이기 때문에 친구들과 다르다는 것에 실망하기도 하지만 친구들과 어울려 즐겁게 지냅니다.
+            </td>
+        </tr>
+        <tr>
+            <td><img src="image/pororo/poby.jpg" width="100"></td>
+            <td>포비</td>
+            <td>북극곰</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td><img src="image/pororo/harry.jpg" width="100"></td>
+            <td>해리</td>
+            <td>벌새</td>
+            <td>노래를 좋아하는 유쾌한 작은 벌새.
+                노래 부르고 춤추는 것을 너무나 좋아하고 한번 부르면 도무지 멈출 줄을 몰라서 주위를 피곤하게 합니다.
+                다소 급한 성격이어서 친구들의 오해를 살 만한 행동들을 하기도 하지만 그 역시 악의없는 행동들이어서 친구들과 금방 화해를 한답니다.
+            </td>
+        </tr>
+        <tr>
+            <td><img src="image/pororo/loopy.jpg" width="100"></td>
+            <td>루피</td>
+            <td>비버</td>
+            <td></td>
+        </tr>
+    </table>    
+
+    <p>노는게 제일 좋아</p>
+    <p>친구들 모여라</p>
+    <p>언제나 즐거워</p>
+    <p >개구쟁이 뽀로로</p> -->
+
+</body>
+</html>
